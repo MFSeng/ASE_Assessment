@@ -1,0 +1,17 @@
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\BankApplication\bin\Debug\net8.0-windows\BankApplication.exe
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\BankApplication\bin\Debug\net8.0-windows\BankApplication.deps.json
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\BankApplication\bin\Debug\net8.0-windows\BankApplication.runtimeconfig.json
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\BankApplication\bin\Debug\net8.0-windows\BankApplication.dll
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\BankApplication\bin\Debug\net8.0-windows\BankApplication.pdb
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\BankApplication\obj\Debug\net8.0-windows\BankApplication.Form1.resources
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\BankApplication\obj\Debug\net8.0-windows\BankApplication.csproj.GenerateResource.cache
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\BankApplication\obj\Debug\net8.0-windows\BankApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\BankApplication\obj\Debug\net8.0-windows\BankApplication.AssemblyInfoInputs.cache
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\BankApplication\obj\Debug\net8.0-windows\BankApplication.AssemblyInfo.cs
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\BankApplication\obj\Debug\net8.0-windows\BankApplication.csproj.CoreCompileInputs.cache
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\BankApplication\obj\Debug\net8.0-windows\BankApplication.sourcelink.json
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\BankApplication\obj\Debug\net8.0-windows\BankApplication.dll
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\BankApplication\obj\Debug\net8.0-windows\refint\BankApplication.dll
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\BankApplication\obj\Debug\net8.0-windows\BankApplication.pdb
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\BankApplication\obj\Debug\net8.0-windows\BankApplication.genruntimeconfig.cache
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\BankApplication\obj\Debug\net8.0-windows\ref\BankApplication.dll
