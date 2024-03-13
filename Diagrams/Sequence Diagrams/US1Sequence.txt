@@ -7,6 +7,12 @@ database Database as db
 
 cust -> client : Login
 client -> server : Authorize
+server -> db : Check Information
+db --> server : Validated
 server --> client : Success
+
+cust -> client : Deposit Money
+client -> server : Deposit Money
+ 
 
 @enduml
