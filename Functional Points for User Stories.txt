@@ -1,0 +1,15 @@
+User Story 7:
+1: Number of External Inputs (EI): Input screens, Encryption Key
+2: Number of External Outputs (EO): Output Screens
+3: Number of External Inquiries (EQ): Promt for encryption key, Interrupt if encryption key is entered wrong
+4: Number of Internal Files (ILF): Database of keys and corresponding users
+5: Number of external Interfaces (EIF): Main database of accounts
+Project Function Points: 26.6
+
+User Story 12:
+1: Number of External Inputs (EI): Interface for user to contact customer service
+2: Number of External Outputs (EO): Output screen for communication with customer service
+3: Number of External Inquiries (EQ): System for customer service contacting user
+4: Number of Internal Files (ILF): History of customer service tickets/ contact
+5: Number of external Interfaces (EIF): ???
+Project Function Points: 14.3
