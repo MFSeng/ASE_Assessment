@@ -1,0 +1,35 @@
+@startuml
+
+left to right direction
+actor :Customer: as mc
+
+package "Client"{
+	usecase "Create a bank account" as CA
+	usecase "Withdraw Money" as Withdraw
+	usecase "Deposit Money" as Depo
+	
+	usecase "Edit Account Details" as EAD
+	usecase "View Account Information" as VAI
+	usecase "Send Money To Another Account" as SM
+}
+
+package "Server"{
+	usecase "Perform Banking Operation" as PBO
+	usecase "Retrieve and Send Information Back to User" as RSIBU
+}
+
+mc --> CA
+mc --> Withdraw
+mc --> Depo
+mc --> VAI
+mc --> SM
+mc --> EAD
+
+CA --> PBO
+Withdraw --> PBO
+Depo --> PBO
+SM --> PBO
+EAD --> RSIBU
+VAI --> RSIBU
+
+@enduml

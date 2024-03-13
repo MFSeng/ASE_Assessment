@@ -1,0 +1,12 @@
+@startuml
+
+actor Customer as cust
+entity Client as client
+entity Server as server
+database Database as db
+
+cust -> client : Login
+client -> server : Authorize
+server --> client : Success
+
+@enduml
