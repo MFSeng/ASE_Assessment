@@ -1,0 +1,75 @@
+@startuml
+
+left to right direction
+actor :Customer: as cust
+
+package "Authentication"{
+	usecase Login as mc
+	usecase "Two Factor Authentication" as 2fa
+}
+
+
+usecase "Decrypt" as Dec
+
+package "Client"{
+	usecase "Create a bank account" as CA
+	usecase "Withdraw Money" as Withdraw
+	usecase "Deposit Money (With Receipt)" as Depo
+	
+	usecase "Edit Account Details" as EAD
+	usecase "View Detailed Account Information" as VAI
+	usecase "Send Money To Another Account" as SM
+
+	usecase "Close Account" as CloseAccount
+	usecase "View Transaction History" as TransactionHistory
+	usecase "Request and Manage Services (Checkbooks and Direct Debits)" as services
+
+	usecase "Set up Recurring Payments and Direct Debits" as recurringAndDirect 
+
+	usecase "Log In With Two Factor Authentication" as twofactor
+
+	usecase "Receieve Information" as DIU
+}
+
+usecase "Encrypt" as Enc
+
+package "Server"{
+	usecase "Perform Banking Operation" as PBO
+	usecase "Retrieve Information" as RSIBU
+}
+
+cust --> mc
+mc <|-- 2fa : <<Extends>> login may require two factor authentication
+
+mc --> CA
+mc --> Withdraw
+mc --> Depo
+mc --> VAI
+mc --> SM
+mc --> EAD
+mc --> CloseAccount
+mc --> TransactionHistory
+mc --> services
+mc --> recurringAndDirect
+mc --> twofactor
+
+PBO -right-> RSIBU
+
+twofactor --> RSIBU
+recurringAndDirect --> PBO
+services --> PBO
+CloseAccount --> PBO
+TransactionHistory --> RSIBU
+CA --> PBO
+Withdraw --> PBO
+Depo --> PBO
+SM --> PBO
+EAD --> RSIBU
+VAI --> RSIBU
+
+RSIBU --> Enc
+Enc --> DIU
+DIU --> Dec
+Dec --> cust
+
+@enduml

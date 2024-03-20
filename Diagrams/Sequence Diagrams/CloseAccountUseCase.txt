@@ -1,0 +1,20 @@
+@startuml
+
+actor Customer as cust
+entity Client as client
+entity Server as server
+database Database as db
+
+cust -> client : Login
+client -> server : Authorize
+server -> db : Retrieve Login
+db --> server : Send Login
+server --> client : Success
+
+cust -> client : Close Account
+client -> server : Close Account
+server -> db : Remove Data From Database
+server --> client : Success
+client --> cust : Display Success
+
+@enduml

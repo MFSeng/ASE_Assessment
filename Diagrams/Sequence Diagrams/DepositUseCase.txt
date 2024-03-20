@@ -7,12 +7,15 @@ database Database as db
 
 cust -> client : Login
 client -> server : Authorize
-server -> db : Check Information
-db --> server : Validated
+server -> db : Retrieve Data
+db --> server : Send Data
 server --> client : Success
 
 cust -> client : Deposit Money
 client -> server : Deposit Money
- 
+server -> db : Update Balance
+db --> server : Return New Balance
+server --> client : Encrypt Balance and Generate Receipt
+client --> cust : Decrypt and Display Balance and Receipt
 
 @enduml

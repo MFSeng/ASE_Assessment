@@ -1,0 +1,23 @@
+@startuml
+
+actor Customer as cust
+entity Client as client
+entity Server as server
+database Database as db
+
+cust -> client : Login
+client -> server : Authorize
+server -> db : Retrieve Data
+db --> server : Send Data
+server --> client : Success
+
+cust -> client : Withdraw Money
+client -> server : Withdraw Money
+server -> db : Verify Balance Can Be Withdrawn
+db --> server : Success
+server -> db : Update Balance
+db --> server : Success
+server --> client : Encrypt and Return
+client --> cust : Decrypt and Display
+
+@enduml

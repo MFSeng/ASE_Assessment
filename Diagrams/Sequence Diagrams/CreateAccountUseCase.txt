@@ -1,0 +1,15 @@
+@startuml
+
+actor Customer as cust
+entity Client as client
+entity Server as server
+database Database as db
+
+cust -> client : Create Account
+client -> server : Create Account with Login Information
+server -> db : Create Account if it doesn't exist
+db --> server : Return Success
+server --> client : Success
+client --> cust : Created Account
+
+@enduml
