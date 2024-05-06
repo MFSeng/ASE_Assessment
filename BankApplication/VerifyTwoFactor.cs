@@ -14,11 +14,12 @@ namespace BankApplication
     public partial class VerifyTwoFactor : Form
     {
         private string userId;
+        private string secretKey;
 
-        public VerifyTwoFactor(string userID)
+        public VerifyTwoFactor(string secretKey)
         {
             InitializeComponent();
-            this.userId = userID;
+            this.secretKey = secretKey;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -27,7 +28,7 @@ namespace BankApplication
             string userInput = txtUserInput.Text;
             TwoFactorAuthenticator tfa = new TwoFactorAuthenticator();
             // Get user id from database
-            bool isCorrectPIN = tfa.ValidateTwoFactorPIN("UserIdKey", userInput);
+            bool isCorrectPIN = tfa.ValidateTwoFactorPIN(secretKey, userInput);
             if (isCorrectPIN)
             {
                 lblOutput.Text = "Correct Verification";
