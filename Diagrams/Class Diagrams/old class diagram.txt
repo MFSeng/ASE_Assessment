@@ -5,5 +5,39 @@ Home_Page <|-- Form
 Account_Page <|-- Form
 Settings_Page <|-- Form
 
+GoogleAuthenticator #-- "Implements" Login_Page
 
+class Login_Page{
+	login() : bool
+}
+
+class GoogleAuthenticator{
+	GenerateSetupCode() : void
+	Authenticate() : bool
+}
+
+class Settings_Page {
+	EditTwoFactor() : void
+	
+}
+class Home_Page {
+	CreateNewAccount() : bool
+	ViewAccount() : void
+}
+class Account_Page {
+	accountNumber : int
+	EditDetails() : void
+	CloseAccount() : void
+	TransferFunds() : void
+	Deposit() : void
+	WithdrawCash() : void
+	GetHistory() : void
+	ViewPaymentsAndDirectDebits() : void
+	ManagePaymentsAndDirectDebits() : void
+	ManageCheckbook() : void
+	ManageCards() : void
+	RequestCheckbook() : void
+	RequestCard() : void
+	
+}
 @enduml
