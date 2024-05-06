@@ -16,6 +16,10 @@ namespace BankApplication
         private string userId;
         private string secretKey;
 
+        /// <summary>
+        /// Create two factor using secret key. This is generated during account creation and stored
+        /// </summary>
+        /// <param name="secretKey">The authentication code from the database</param>
         public VerifyTwoFactor(string secretKey)
         {
             InitializeComponent();
@@ -24,7 +28,16 @@ namespace BankApplication
 
         private void label1_Click(object sender, EventArgs e)
         {
-            // Get user input from database
+            
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
+        }
+
+        private void btnVerify_Click(object sender, EventArgs e)
+        {
             string userInput = txtUserInput.Text;
             TwoFactorAuthenticator tfa = new TwoFactorAuthenticator();
             // Get user id from database
@@ -38,11 +51,6 @@ namespace BankApplication
             {
                 lblOutput.Text = "Failed Verification";
             }
-        }
-
-        private void btnCancel_Click(object sender, EventArgs e)
-        {
-            this.DialogResult = DialogResult.Cancel;
         }
     }
 }

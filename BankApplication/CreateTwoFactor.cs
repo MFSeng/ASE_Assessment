@@ -16,6 +16,10 @@ namespace BankApplication
 {
     public partial class CreateTwoFactor : Form
     {
+        /// <summary>
+        /// Creates a two factor form that the user has to follow
+        /// </summary>
+        /// <param name="userID">The ID of the user so that it can be used to store the authentication code once created and working</param>
         public CreateTwoFactor(string userID)
         {
             InitializeComponent();
@@ -24,7 +28,21 @@ namespace BankApplication
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            string userInput = txtUserInput.Text;
+            TwoFactorAuthenticator tfa = new TwoFactorAuthenticator();
+            // userKey = database.get(authCode) from userId
+            bool isCorrectPIN = tfa.ValidateTwoFactorPIN(userKey, userInput);
+            if (isCorrectPIN)
+            {
+                //lblVerification.Text = "Correct Verification";
+                // Correct result means we can move on
+                // Store key in database here: Database @ userId.authCode = userKey
+                this.DialogResult = DialogResult.Yes;
+            }
+            else
+            {
+                //lblVerification.Text = "Failed Verification";
+            }
         }
 
         private string userKey;
@@ -85,20 +103,7 @@ namespace BankApplication
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            string userInput = txtUserInput.Text;
-            TwoFactorAuthenticator tfa = new TwoFactorAuthenticator();
-            // userKey = database.get(authCode) from userId
-            bool isCorrectPIN = tfa.ValidateTwoFactorPIN(userKey, userInput);
-            if (isCorrectPIN)
-            {
-                //lblVerification.Text = "Correct Verification";
-                // Correct result means we can move on
-                this.DialogResult = DialogResult.Yes;
-            }
-            else
-            {
-                //lblVerification.Text = "Failed Verification";
-            }
+            
         }
     }
 }
