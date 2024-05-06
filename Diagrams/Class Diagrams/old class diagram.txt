@@ -12,13 +12,12 @@ class Login_Page{
 }
 
 class GoogleAuthenticator{
-	GenerateSetupCode() : void
-	Authenticate() : bool
+	GenerateSetupCode(String, String) : String[]
+	ValidateTwoFactorPIN(String, String) : bool
 }
 
 class Settings_Page {
-	EditTwoFactor() : void
-	
+	EditTwoFactor() : void	
 }
 class Home_Page {
 	CreateNewAccount() : bool
@@ -38,6 +37,5 @@ class Account_Page {
 	ManageCards() : void
 	RequestCheckbook() : void
 	RequestCard() : void
-	
 }
 @enduml
