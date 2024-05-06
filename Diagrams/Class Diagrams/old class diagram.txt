@@ -1,0 +1,9 @@
+@startuml
+
+Login_Page <|-- Form
+Home_Page <|-- Form
+Account_Page <|-- Form
+Settings_Page <|-- Form
+
+
+@enduml
