@@ -16,5 +16,11 @@ namespace BankApplication
         {
             InitializeComponent();
         }
+
+        private void LoginPage_Load(object sender, EventArgs e)
+        {
+            Home_Page load = new Home_Page();
+            load.Show();
+        }
     }
 }

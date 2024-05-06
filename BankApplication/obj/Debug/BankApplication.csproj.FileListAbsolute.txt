@@ -1,0 +1,13 @@
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\bin\Debug\BankServer.mdf
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\bin\Debug\BankServer_log.ldf
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\bin\Debug\BankApplication.exe.config
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\bin\Debug\BankApplication.exe
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\bin\Debug\BankApplication.pdb
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.csproj.AssemblyReference.cache
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.Home_Page.resources
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.Properties.Resources.resources
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.csproj.GenerateResource.cache
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.csproj.CoreCompileInputs.cache
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.exe
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.pdb
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.LoginPage.resources
