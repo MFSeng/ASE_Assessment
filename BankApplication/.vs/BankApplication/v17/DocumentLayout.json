@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{905CD3B8-52E5-42A4-B6D3-876978A769FF}|BankApplication\\BankApplication.csproj|c:\\users\\mitch\\documents\\postgrad\\advanced_software_engineering\\ase_assessment\\bankapplication\\bankapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{905CD3B8-52E5-42A4-B6D3-876978A769FF}|BankApplication\\BankApplication.csproj|solutionrelative:bankapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{905CD3B8-52E5-42A4-B6D3-876978A769FF}|BankApplication\\BankApplication.csproj|c:\\users\\mitch\\documents\\postgrad\\advanced_software_engineering\\ase_assessment\\bankapplication\\bankapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{905CD3B8-52E5-42A4-B6D3-876978A769FF}|BankApplication\\BankApplication.csproj|solutionrelative:bankapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|c:\\users\\mitch\\documents\\postgrad\\advanced_software_engineering\\ase_assessment\\bankapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +14,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\BankApplication\\Form1.cs",
-              "RelativeDocumentMoniker": "BankApplication\\Form1.cs",
-              "ToolTip": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\BankApplication\\Form1.cs",
-              "RelativeToolTip": "BankApplication\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T15:51:37.987Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\BankApplication\\Form1.cs",
-              "RelativeDocumentMoniker": "BankApplication\\Form1.cs",
-              "ToolTip": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\BankApplication\\Form1.cs [Design]",
-              "RelativeToolTip": "BankApplication\\Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T15:49:50.674Z",
+              "WhenOpened": "2024-05-06T18:44:50.802Z",
               "EditorCaption": " [Design]"
             }
           ]
