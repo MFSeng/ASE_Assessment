@@ -10,6 +10,8 @@ Settings_Page <|-- Form
 CreateTwoFactor <|-- Form
 VerifyTwoFactor <|-- Form
 
+CreateAccount <|-- Form
+
 GoogleAuthenticator #-- "Implements" CreateTwoFactor
 GoogleAuthenticator #-- "Implements" VerifyTwoFactor
 
@@ -22,6 +24,11 @@ class GoogleAuthenticator{
 	GenerateSetupCode(String, String) : String[]
 	ValidateTwoFactorPIN(String, String) : bool
 }
+
+class CreateAccount {
+	CreateAccount() : void
+}
+
 
 class CreateTwoFactor
 {

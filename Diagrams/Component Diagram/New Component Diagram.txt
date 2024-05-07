@@ -1,0 +1,16 @@
+@startuml
+
+() "User" as login
+
+[Google Authenticator Service] as GoogleAuth
+'[Server] as server
+[Client] as client
+[SQL Server] as db
+
+
+login - client
+'client ..> server
+client ..> GoogleAuth
+client --> db
+
+@enduml
