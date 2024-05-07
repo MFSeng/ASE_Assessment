@@ -1,5 +1,7 @@
 @startuml
 
+Program <|-- Form
+
 Login_Page <|-- Form
 Home_Page <|-- Form
 Account_Page <|-- Form
@@ -38,6 +40,11 @@ class Settings_Page {
 class Home_Page {
 	CreateNewAccount() : bool
 	ViewAccount() : void
+}
+
+class Program
+{
+	Main() : void
 }
 class Account_Page {
 	accountNumber : int
