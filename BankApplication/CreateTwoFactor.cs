@@ -16,14 +16,13 @@ namespace BankApplication
 {
     public partial class CreateTwoFactor : Form
     {
-        /// <summary>
-        /// Creates a two factor form that the user has to follow
-        /// </summary>
-        /// <param name="userID">The ID of the user so that it can be used to store the authentication code once created and working</param>
-        public CreateTwoFactor(string userID)
+        // <summary>
+        // Creates a two factor form that the user has to follow
+        // </summary>
+        // <param name="userID">The ID of the user so that it can be used to store the authentication code once created and working</param>
+        public CreateTwoFactor()
         {
             InitializeComponent();
-            this.userId = userID;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -83,8 +82,7 @@ namespace BankApplication
         public string RandomString(int length)
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-            return new string(Enumerable.Repeat(chars, length)
-        .Select(s => s[random.Next(s.Length)]).ToArray());
+            return new string(Enumerable.Repeat(chars, length).Select(s => s[random.Next(s.Length)]).ToArray());
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -92,10 +90,10 @@ namespace BankApplication
 
         }
 
-        /// <summary>
-        /// Sets the user id locally so that this form can save their auth code
-        /// </summary>
-        /// <param name="id">The user ID</param>
+        // <summary>
+        // Sets the user id locally so that this form can save their auth code
+        // </summary>
+        // <param name="id">The user ID</param>
         public void SetUserID(string id)
         {
             userId = id;

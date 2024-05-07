@@ -33,6 +33,8 @@
             this.btnVerify = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.lblOutput = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -80,11 +82,20 @@
             this.lblOutput.Size = new System.Drawing.Size(0, 13);
             this.lblOutput.TabIndex = 4;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(528, 56);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(241, 235);
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
             // VerifyTwoFactor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblOutput);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnVerify);
@@ -92,6 +103,8 @@
             this.Controls.Add(this.label1);
             this.Name = "VerifyTwoFactor";
             this.Text = "VerifyTwoFactor";
+            this.Load += new System.EventHandler(this.VerifyTwoFactor_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,5 +117,6 @@
         private System.Windows.Forms.Button btnVerify;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label lblOutput;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

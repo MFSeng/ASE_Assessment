@@ -37,3 +37,17 @@ C:\Users\Computing\Documents\ASE_Assessment\BankApplication\obj\Debug\BankApplic
 C:\Users\Computing\Documents\ASE_Assessment\BankApplication\obj\Debug\BankApplication.csproj.CopyComplete
 C:\Users\Computing\Documents\ASE_Assessment\BankApplication\obj\Debug\BankApplication.exe
 C:\Users\Computing\Documents\ASE_Assessment\BankApplication\obj\Debug\BankApplication.pdb
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\bin\Debug\Magick.Native-Q16-arm64.dll
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\bin\Debug\Magick.Native-Q16-x64.dll
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\bin\Debug\Magick.Native-Q16-x86.dll
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\bin\Debug\Google.Authenticator.dll
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\bin\Debug\Magick.NET-Q16-AnyCPU.dll
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\bin\Debug\Magick.NET.Core.dll
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\bin\Debug\QRCoder.dll
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\bin\Debug\Google.Authenticator.pdb
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\bin\Debug\Magick.NET-Q16-AnyCPU.xml
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\bin\Debug\Magick.NET.Core.xml
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.CreateTwoFactor.resources
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.VerifyTwoFactor.resources
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankAppl.95B82FE1.Up2Date
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.CreateAccount.resources
