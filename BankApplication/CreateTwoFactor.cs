@@ -36,6 +36,7 @@ namespace BankApplication
                 //lblVerification.Text = "Correct Verification";
                 // Correct result means we can move on
                 // Store key in database here: Database @ userId.authCode = userKey
+                CreateAccount.authcode = userKey;
                 this.DialogResult = DialogResult.Yes;
             }
             else

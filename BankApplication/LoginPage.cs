@@ -32,14 +32,9 @@ namespace BankApplication
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
-            CreateTwoFactor twoFactor = new CreateTwoFactor();
-            DialogResult res = twoFactor.ShowDialog();
-
-            if (res == DialogResult.Yes)
-            {
-                Home_Page load = new Home_Page();
-                load.Show();
-            }
+            CreateAccount account = new CreateAccount();
+            account.Show();
+            this.Hide();
         }
 
         private void Login_Click(object sender, EventArgs e)

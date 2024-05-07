@@ -42,6 +42,7 @@ namespace BankApplication
             string userInput = txtUserInput.Text;
             // Get user id from database
             TwoFactorAuthenticator tfa = new TwoFactorAuthenticator();
+            var setupInfo = tfa.GenerateSetupCode("My app", "gibbotehgamer@gmail.com", secretKey, false, 3);
             bool isCorrectPIN = tfa.ValidateTwoFactorPIN(secretKey, userInput);
             if (isCorrectPIN)
             {
@@ -56,24 +57,7 @@ namespace BankApplication
 
         private void VerifyTwoFactor_Load(object sender, EventArgs e)
         {
-            TwoFactorAuthenticator tfa = new TwoFactorAuthenticator();
-            var setupInfo = tfa.GenerateSetupCode("My app", "gibbotehgamer@gmail.com", secretKey, false, 3);
 
-            string qrCodeImageUrl = setupInfo.QrCodeSetupImageUrl;
-
-            var headerLength = "data:image/png;base64,".Length;
-            var rawImageData = qrCodeImageUrl.Substring(headerLength, qrCodeImageUrl.Length - headerLength);
-            var imageData = Convert.FromBase64String(rawImageData);
-            var image = new ImageMagick.MagickImage(imageData);
-            Bitmap bitmapImage;
-
-            using (var memStream = new MemoryStream())
-            {
-                image.Write(memStream);
-                bitmapImage = new System.Drawing.Bitmap(memStream);
-            }
-
-            pictureBox1.Image = bitmapImage;
         }
     }
 }

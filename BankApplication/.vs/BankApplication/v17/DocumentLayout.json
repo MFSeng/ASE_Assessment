@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|solutionrelative:loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|c:\\users\\mitch\\documents\\postgrad\\advanced_software_engineering\\ase_assessment\\bankapplication\\createaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|solutionrelative:createaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\createaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|solutionrelative:createaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\home_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|solutionrelative:home_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\createtwofactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|solutionrelative:createtwofactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|solutionrelative:loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\createtwofactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|solutionrelative:createtwofactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|c:\\users\\mitch\\documents\\postgrad\\advanced_software_engineering\\ase_assessment\\bankapplication\\verifytwofactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|solutionrelative:verifytwofactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,32 +39,8 @@
       "RelativeMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|solutionrelative:verifytwofactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|solutionrelative:loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\createtwofactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|solutionrelative:createtwofactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|c:\\users\\mitch\\documents\\postgrad\\advanced_software_engineering\\ase_assessment\\bankapplication\\createaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|solutionrelative:createaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\createtwofactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|solutionrelative:createtwofactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|c:\\users\\mitch\\documents\\postgrad\\advanced_software_engineering\\ase_assessment\\bankapplication\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|solutionrelative:loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\home_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|solutionrelative:home_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\home_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18F079F-9BDB-4C71-AC6B-7C80BF712429}|BankApplication.csproj|solutionrelative:home_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,46 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VerifyTwoFactor.cs",
-              "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\VerifyTwoFactor.cs",
-              "RelativeDocumentMoniker": "VerifyTwoFactor.cs",
-              "ToolTip": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\VerifyTwoFactor.cs",
-              "RelativeToolTip": "VerifyTwoFactor.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAqwD0AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T22:00:26.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginPage.cs",
-              "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\LoginPage.cs",
-              "RelativeDocumentMoniker": "LoginPage.cs",
-              "ToolTip": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\LoginPage.cs",
-              "RelativeToolTip": "LoginPage.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAUwCIAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T21:09:44.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateTwoFactor.cs",
-              "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\CreateTwoFactor.cs",
-              "RelativeDocumentMoniker": "CreateTwoFactor.cs",
-              "ToolTip": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\CreateTwoFactor.cs",
-              "RelativeToolTip": "CreateTwoFactor.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAAADgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T21:54:48.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "CreateAccount.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\CreateAccount.cs",
               "RelativeDocumentMoniker": "CreateAccount.cs",
@@ -110,18 +75,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VerifyTwoFactor.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\VerifyTwoFactor.cs",
-              "RelativeDocumentMoniker": "VerifyTwoFactor.cs",
-              "ToolTip": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\VerifyTwoFactor.cs [Design]",
-              "RelativeToolTip": "VerifyTwoFactor.cs [Design]",
+              "Title": "CreateAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\CreateAccount.cs",
+              "RelativeDocumentMoniker": "CreateAccount.cs",
+              "ToolTip": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\CreateAccount.cs",
+              "RelativeToolTip": "CreateAccount.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADkAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T21:48:34.575Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-07T19:34:20.72Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "LoginPage.cs",
+              "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\LoginPage.cs",
+              "RelativeDocumentMoniker": "LoginPage.cs",
+              "ToolTip": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\LoginPage.cs",
+              "RelativeToolTip": "LoginPage.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T21:09:44.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateTwoFactor.cs",
+              "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\CreateTwoFactor.cs",
+              "RelativeDocumentMoniker": "CreateTwoFactor.cs",
+              "ToolTip": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\CreateTwoFactor.cs",
+              "RelativeToolTip": "CreateTwoFactor.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAmwCcAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T21:54:48.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CreateTwoFactor.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\CreateTwoFactor.cs",
               "RelativeDocumentMoniker": "CreateTwoFactor.cs",
@@ -133,7 +125,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "Home_Page.cs",
+              "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\Home_Page.cs",
+              "RelativeDocumentMoniker": "Home_Page.cs",
+              "ToolTip": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\Home_Page.cs",
+              "RelativeToolTip": "Home_Page.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T20:40:47.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VerifyTwoFactor.cs",
+              "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\VerifyTwoFactor.cs",
+              "RelativeDocumentMoniker": "VerifyTwoFactor.cs",
+              "ToolTip": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\VerifyTwoFactor.cs",
+              "RelativeToolTip": "VerifyTwoFactor.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAowDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T22:00:26.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VerifyTwoFactor.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\VerifyTwoFactor.cs",
+              "RelativeDocumentMoniker": "VerifyTwoFactor.cs",
+              "ToolTip": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\VerifyTwoFactor.cs [Design]",
+              "RelativeToolTip": "VerifyTwoFactor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T21:48:34.575Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "LoginPage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\LoginPage.cs",
               "RelativeDocumentMoniker": "LoginPage.cs",
@@ -145,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Home_Page.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\Home_Page.cs",
               "RelativeDocumentMoniker": "Home_Page.cs",
@@ -154,19 +184,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T20:14:45.97Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Home_Page.cs",
-              "DocumentMoniker": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\Home_Page.cs",
-              "RelativeDocumentMoniker": "Home_Page.cs",
-              "ToolTip": "C:\\Users\\Mitch\\Documents\\Postgrad\\Advanced_Software_Engineering\\ASE_Assessment\\BankApplication\\Home_Page.cs",
-              "RelativeToolTip": "Home_Page.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T20:40:47.741Z",
-              "EditorCaption": ""
             }
           ]
         }
