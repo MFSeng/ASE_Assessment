@@ -19,8 +19,19 @@ namespace BankApplication
 
         private void LoginPage_Load(object sender, EventArgs e)
         {
-            Home_Page load = new Home_Page();
-            load.Show();
+            
+        }
+
+        private void btnCreate_Click(object sender, EventArgs e)
+        {
+            CreateTwoFactor twoFactor = new CreateTwoFactor("userid");
+            DialogResult res = twoFactor.ShowDialog();
+
+            if (res == DialogResult.Yes)
+            {
+                Home_Page load = new Home_Page();
+                load.Show();
+            }
         }
     }
 }

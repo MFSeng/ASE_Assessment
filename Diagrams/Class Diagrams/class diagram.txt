@@ -1,0 +1,57 @@
+@startuml
+
+Login_Page <|-- Form
+Home_Page <|-- Form
+Account_Page <|-- Form
+Settings_Page <|-- Form
+
+CreateTwoFactor <|-- Form
+VerifyTwoFactor <|-- Form
+
+GoogleAuthenticator #-- "Implements" CreateTwoFactor
+GoogleAuthenticator #-- "Implements" VerifyTwoFactor
+
+
+class Login_Page{
+	login() : bool
+}
+
+class GoogleAuthenticator{
+	GenerateSetupCode(String, String) : String[]
+	ValidateTwoFactorPIN(String, String) : bool
+}
+
+class CreateTwoFactor
+{
+	VerifyButtonClick() : DialogResult
+}
+
+class VerifyTwoFactor
+{
+	VerifyButtonClick() : DialogResult
+}
+
+
+class Settings_Page {
+	EditTwoFactor() : void	
+}
+class Home_Page {
+	CreateNewAccount() : bool
+	ViewAccount() : void
+}
+class Account_Page {
+	accountNumber : int
+	EditDetails() : void
+	CloseAccount() : void
+	TransferFunds() : void
+	Deposit() : void
+	WithdrawCash() : void
+	GetHistory() : void
+	ViewPaymentsAndDirectDebits() : void
+	ManagePaymentsAndDirectDebits() : void
+	ManageCheckbook() : void
+	ManageCards() : void
+	RequestCheckbook() : void
+	RequestCard() : void
+}
+@enduml
