@@ -62,7 +62,7 @@ namespace BankApplication
                 {
                     command.Connection = connection;
                     command.CommandType = CommandType.Text;
-                    command.CommandText = "INSERT INTO [Details] ([Customer Number], [Firstname], [Surname], [AuthCode], [Password], [Email], [Address 1], [Address 2], [Postcode], [PhoneNum], [D.O.B.]) VALUES (@CustNum, @FirstName, @Surname, @Auth, @Password, @Email, @Address1, @Address2, @Postcode, @PhoneNum, @DoB)";
+                    command.CommandText = (@"INSERT INTO [Details] ([Customer Number], [Firstname], [Surname], [AuthCode], [Password], [Email], [Address 1], [Address 2], [Postcode], [PhoneNum], [D.O.B.]) VALUES (@CustNum, @FirstName, @Surname, @Auth, @Password, @Email, @Address1, @Address2, @Postcode, @PhoneNum, @DoB)");
 
                     // Adding parameters to avoid SQL Injection
                     command.Parameters.AddWithValue("@CustNum", customerNum.ToString());

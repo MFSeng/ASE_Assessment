@@ -51,3 +51,4 @@ C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\B
 C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.VerifyTwoFactor.resources
 C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankAppl.95B82FE1.Up2Date
 C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.CreateAccount.resources
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.Transfer.resources
