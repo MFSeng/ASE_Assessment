@@ -6,11 +6,14 @@
 '[Server] as server
 [Client] as client
 [SQL Server] as db
+[QRCoder] as qrcoder
 
 
 login - client
 'client ..> server
 client ..> GoogleAuth
 client --> db
+GoogleAuth ..> db
+GoogleAuth --> qrcoder
 
 @enduml
