@@ -133,6 +133,9 @@
     <EmbeddedResource Include="CreateAccount.resx">
       <DependentUpon>CreateAccount.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CreateBankAccount.resx">
+      <DependentUpon>CreateBankAccount.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CreateTwoFactor.resx">
       <DependentUpon>CreateTwoFactor.cs</DependentUpon>
     </EmbeddedResource>

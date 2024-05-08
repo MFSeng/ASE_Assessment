@@ -17,7 +17,7 @@ namespace BankApplication
         SqlConnection connection;
         string connectionString;
         public static string authcode;
-        private int customerNum;
+        private string customerNum;
         public CreateAccount()
         {
             InitializeComponent();
@@ -26,10 +26,10 @@ namespace BankApplication
         private void CreateAccount_Load(object sender, EventArgs e)
         {
             CreateButton.Enabled = false;
-            customerNum = Int32.Parse(RandomNum());
-            label2.Text = customerNum.ToString();
+            customerNum = RandomNum();
+            label2.Text = customerNum;
         }
-        public string RandomNum()
+        private string RandomNum()
         {
             Random random = new Random();
             const string chars = "0123456789";
@@ -65,7 +65,7 @@ namespace BankApplication
                     command.CommandText = (@"INSERT INTO [Details] ([Customer Number], [Firstname], [Surname], [AuthCode], [Password], [Email], [Address 1], [Address 2], [Postcode], [PhoneNum], [D.O.B.]) VALUES (@CustNum, @FirstName, @Surname, @Auth, @Password, @Email, @Address1, @Address2, @Postcode, @PhoneNum, @DoB)");
 
                     // Adding parameters to avoid SQL Injection
-                    command.Parameters.AddWithValue("@CustNum", customerNum.ToString());
+                    command.Parameters.AddWithValue("@CustNum", customerNum);
                     command.Parameters.AddWithValue("@FirstName", FirstBox.Text);
                     command.Parameters.AddWithValue("@Surname", SurBox.Text);
                     command.Parameters.AddWithValue("@Auth", authcode);

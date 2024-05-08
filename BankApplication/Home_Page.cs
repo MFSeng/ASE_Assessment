@@ -206,5 +206,16 @@ namespace BankApplication
             Transfer transfer = new Transfer();
             transfer.ShowDialog();
         }
+
+        private void CreateAccButton_Click(object sender, EventArgs e)
+        {
+            CreateBankAccount bank = new CreateBankAccount();
+            DialogResult res = bank.ShowDialog();
+
+            if (res == DialogResult.Yes)
+            {
+                AccountLoad();
+            }
+        }
     }
 }

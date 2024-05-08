@@ -196,6 +196,7 @@
             this.CreateAccButton.TabIndex = 16;
             this.CreateAccButton.Text = "New Account";
             this.CreateAccButton.UseVisualStyleBackColor = true;
+            this.CreateAccButton.Click += new System.EventHandler(this.CreateAccButton_Click);
             // 
             // TransferButton
             // 
