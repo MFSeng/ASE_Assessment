@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\TestingGoogleAuthBetterOnlyRequiredPackages\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB2050-4055-45BD-A8DC-1196EC334D8A}|TestingGoogleAuth\\TestingGoogleAuth.csproj|h:\\testinggoogleauthbetteronlyrequiredpackages\\testinggoogleauth\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB2050-4055-45BD-A8DC-1196EC334D8A}|TestingGoogleAuth\\TestingGoogleAuth.csproj|solutionrelative:testinggoogleauth\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB2050-4055-45BD-A8DC-1196EC334D8A}|TestingGoogleAuth\\TestingGoogleAuth.csproj|H:\\TestingGoogleAuthBetterOnlyRequiredPackages\\testinggoogleauth\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EBFB2050-4055-45BD-A8DC-1196EC334D8A}|TestingGoogleAuth\\TestingGoogleAuth.csproj|solutionrelative:testinggoogleauth\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBFB2050-4055-45BD-A8DC-1196EC334D8A}|TestingGoogleAuth\\TestingGoogleAuth.csproj|H:\\TestingGoogleAuthBetterOnlyRequiredPackages\\testinggoogleauth\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBFB2050-4055-45BD-A8DC-1196EC334D8A}|TestingGoogleAuth\\TestingGoogleAuth.csproj|solutionrelative:testinggoogleauth\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "H:\\TestingGoogleAuthBetterOnlyRequiredPackages\\TestingGoogleAuth\\Form1.cs",
+              "RelativeDocumentMoniker": "TestingGoogleAuth\\Form1.cs",
+              "ToolTip": "H:\\TestingGoogleAuthBetterOnlyRequiredPackages\\TestingGoogleAuth\\Form1.cs",
+              "RelativeToolTip": "TestingGoogleAuth\\Form1.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T21:44:15.405Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "H:\\TestingGoogleAuthBetterOnlyRequiredPackages\\TestingGoogleAuth\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "TestingGoogleAuth\\Form1.Designer.cs",
+              "ToolTip": "H:\\TestingGoogleAuthBetterOnlyRequiredPackages\\TestingGoogleAuth\\Form1.Designer.cs",
+              "RelativeToolTip": "TestingGoogleAuth\\Form1.Designer.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAowH4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T22:09:37.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "H:\\TestingGoogleAuthBetterOnlyRequiredPackages\\TestingGoogleAuth\\Form1.cs",
+              "RelativeDocumentMoniker": "TestingGoogleAuth\\Form1.cs",
+              "ToolTip": "H:\\TestingGoogleAuthBetterOnlyRequiredPackages\\TestingGoogleAuth\\Form1.cs [Design]",
+              "RelativeToolTip": "TestingGoogleAuth\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T21:51:11.528Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
