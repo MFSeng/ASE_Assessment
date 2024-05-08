@@ -40,7 +40,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(260, 84);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(206, 13);
             this.label1.TabIndex = 0;
@@ -49,14 +49,14 @@
             // 
             // txtUserInput
             // 
-            this.txtUserInput.Location = new System.Drawing.Point(263, 177);
+            this.txtUserInput.Location = new System.Drawing.Point(15, 25);
             this.txtUserInput.Name = "txtUserInput";
             this.txtUserInput.Size = new System.Drawing.Size(203, 20);
             this.txtUserInput.TabIndex = 1;
             // 
             // btnVerify
             // 
-            this.btnVerify.Location = new System.Drawing.Point(329, 241);
+            this.btnVerify.Location = new System.Drawing.Point(15, 65);
             this.btnVerify.Name = "btnVerify";
             this.btnVerify.Size = new System.Drawing.Size(75, 23);
             this.btnVerify.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(329, 300);
+            this.btnCancel.Location = new System.Drawing.Point(143, 65);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 3;
@@ -77,16 +77,17 @@
             // lblOutput
             // 
             this.lblOutput.AutoSize = true;
-            this.lblOutput.Location = new System.Drawing.Point(260, 386);
+            this.lblOutput.Location = new System.Drawing.Point(70, 49);
             this.lblOutput.Name = "lblOutput";
-            this.lblOutput.Size = new System.Drawing.Size(0, 13);
+            this.lblOutput.Size = new System.Drawing.Size(94, 13);
             this.lblOutput.TabIndex = 4;
+            this.lblOutput.Text = ".............................";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(528, 56);
+            this.pictureBox1.Location = new System.Drawing.Point(234, 25);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(241, 235);
+            this.pictureBox1.Size = new System.Drawing.Size(184, 189);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
@@ -94,7 +95,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(232, 98);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblOutput);
             this.Controls.Add(this.btnCancel);

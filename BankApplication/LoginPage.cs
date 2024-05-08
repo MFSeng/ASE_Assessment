@@ -49,11 +49,21 @@ namespace BankApplication
                         if (reader.Read())
                         {
                             string authCode = reader["AuthCode"].ToString();
-                            customerNum = usernameBox.Text;
-                            this.Hide();
                             connection.Close();
 
-                            new VerifyTwoFactor(authCode).Show();
+                            VerifyTwoFactor twoFactor = new VerifyTwoFactor(authCode);
+                            DialogResult res = twoFactor.ShowDialog();
+                            if (res == DialogResult.Yes)
+                            {
+                                customerNum = usernameBox.Text;
+                                this.Hide();
+                                Home_Page home = new Home_Page();
+                                home.ShowDialog();
+                            }
+                            else if(res == DialogResult.Cancel)
+                            {
+                                this.Close();
+                            }
                         }
                         else
                         {

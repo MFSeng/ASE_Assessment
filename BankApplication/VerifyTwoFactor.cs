@@ -40,13 +40,10 @@ namespace BankApplication
         private void btnVerify_Click(object sender, EventArgs e)
         {
             string userInput = txtUserInput.Text;
-            // Get user id from database
             TwoFactorAuthenticator tfa = new TwoFactorAuthenticator();
-            var setupInfo = tfa.GenerateSetupCode("My app", "gibbotehgamer@gmail.com", secretKey, false, 3);
             bool isCorrectPIN = tfa.ValidateTwoFactorPIN(secretKey, userInput);
             if (isCorrectPIN)
             {
-                lblOutput.Text = "Correct Verification";
                 this.DialogResult = DialogResult.Yes;
             }
             else

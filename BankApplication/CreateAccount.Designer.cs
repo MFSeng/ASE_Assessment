@@ -97,6 +97,7 @@
             this.FirstBox.Name = "FirstBox";
             this.FirstBox.Size = new System.Drawing.Size(197, 20);
             this.FirstBox.TabIndex = 4;
+            this.FirstBox.TextChanged += new System.EventHandler(this.FirstBox_TextChanged);
             // 
             // SurBox
             // 
@@ -104,6 +105,7 @@
             this.SurBox.Name = "SurBox";
             this.SurBox.Size = new System.Drawing.Size(197, 20);
             this.SurBox.TabIndex = 5;
+            this.SurBox.TextChanged += new System.EventHandler(this.SurBox_TextChanged);
             // 
             // EmailBox
             // 
@@ -111,6 +113,7 @@
             this.EmailBox.Name = "EmailBox";
             this.EmailBox.Size = new System.Drawing.Size(197, 20);
             this.EmailBox.TabIndex = 7;
+            this.EmailBox.TextChanged += new System.EventHandler(this.EmailBox_TextChanged);
             // 
             // label5
             // 
@@ -127,6 +130,7 @@
             this.PhoneBox.Name = "PhoneBox";
             this.PhoneBox.Size = new System.Drawing.Size(197, 20);
             this.PhoneBox.TabIndex = 9;
+            this.PhoneBox.TextChanged += new System.EventHandler(this.PhoneBox_TextChanged);
             // 
             // label6
             // 
@@ -143,6 +147,7 @@
             this.PassBox.Name = "PassBox";
             this.PassBox.Size = new System.Drawing.Size(197, 20);
             this.PassBox.TabIndex = 11;
+            this.PassBox.TextChanged += new System.EventHandler(this.PassBox_TextChanged);
             // 
             // label7
             // 
@@ -176,6 +181,7 @@
             this.AddressBox.Name = "AddressBox";
             this.AddressBox.Size = new System.Drawing.Size(197, 20);
             this.AddressBox.TabIndex = 15;
+            this.AddressBox.TextChanged += new System.EventHandler(this.AddressBox_TextChanged);
             // 
             // label9
             // 
@@ -192,6 +198,7 @@
             this.AddressBox2.Name = "AddressBox2";
             this.AddressBox2.Size = new System.Drawing.Size(197, 20);
             this.AddressBox2.TabIndex = 17;
+            this.AddressBox2.TextChanged += new System.EventHandler(this.AddressBox2_TextChanged);
             // 
             // label10
             // 
@@ -208,6 +215,7 @@
             this.PostBox.Name = "PostBox";
             this.PostBox.Size = new System.Drawing.Size(197, 20);
             this.PostBox.TabIndex = 19;
+            this.PostBox.TextChanged += new System.EventHandler(this.PostBox_TextChanged);
             // 
             // label11
             // 

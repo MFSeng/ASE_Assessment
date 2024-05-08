@@ -25,6 +25,7 @@ namespace BankApplication
         }
         private void CreateAccount_Load(object sender, EventArgs e)
         {
+            CreateButton.Enabled = false;
             customerNum = Int32.Parse(RandomNum());
             label2.Text = customerNum.ToString();
         }
@@ -86,33 +87,16 @@ namespace BankApplication
             }
         }
 
-        private void FirstBox_TextChanged(object sender, EventArgs e)
+        private void setButtonVisability()
         {
-            setButtonVisability();
-        }
-        private void SurBox_TextChanged(object sender, EventArgs e)
-        {
-            setButtonVisability();
-        }
-        private void EmailBox_TextChanged(object sender, EventArgs e)
-        {
-            setButtonVisability();
-        }
-        private void PhoneBox_TextChanged(object sender, EventArgs e)
-        {
-            setButtonVisability();
-        }
-        private void AddressBox_TextChanged(object sender, EventArgs e)
-        {
-            setButtonVisability();
-        }
-        private void AddressBox2_TextChanged(object sender, EventArgs e)
-        {
-            setButtonVisability();
-        }
-        private void PostBox_TextChanged(object sender, EventArgs e)
-        {
-            setButtonVisability();
+            if ((FirstBox.Text != String.Empty) && (SurBox.Text != String.Empty) && (EmailBox.Text != String.Empty) && (PhoneBox.Text != String.Empty) && (PassBox.Text != String.Empty) && (PassBox2.Text != String.Empty) && (AddressBox.Text != String.Empty) && (AddressBox2.Text != String.Empty) && (PostBox.Text != String.Empty))
+            {
+                CreateButton.Enabled = true;
+            }
+            else
+            {
+                CreateButton.Enabled= false;
+            }
         }
         private void PassBox2_TextChanged(object sender, EventArgs e)
         {
@@ -126,6 +110,27 @@ namespace BankApplication
                 PassBox2.BackColor = Color.Red;
             }
         }
+
+        private void FirstBox_TextChanged(object sender, EventArgs e)
+        {
+            setButtonVisability();
+        }
+
+        private void SurBox_TextChanged(object sender, EventArgs e)
+        {
+            setButtonVisability();
+        }
+
+        private void EmailBox_TextChanged(object sender, EventArgs e)
+        {
+            setButtonVisability();
+        }
+
+        private void PhoneBox_TextChanged(object sender, EventArgs e)
+        {
+            setButtonVisability();
+        }
+
         private void PassBox_TextChanged(object sender, EventArgs e)
         {
             setButtonVisability();
@@ -138,16 +143,20 @@ namespace BankApplication
                 PassBox2.BackColor = Color.Red;
             }
         }
-        private void setButtonVisability()
+
+        private void AddressBox_TextChanged(object sender, EventArgs e)
         {
-            if ((FirstBox.Text != String.Empty) && (SurBox.Text != String.Empty) && (EmailBox.Text != String.Empty) && (PhoneBox.Text != String.Empty) && (PassBox.Text != String.Empty) && (PassBox2.Text != String.Empty) && (AddressBox.Text != String.Empty) && (AddressBox2.Text != String.Empty) && (PostBox.Text != String.Empty))
-            {
-                CreateButton.Enabled = true;
-            }
-            else
-            {
-                CreateButton.Enabled= false;
-            }
+            setButtonVisability();
+        }
+
+        private void AddressBox2_TextChanged(object sender, EventArgs e)
+        {
+            setButtonVisability();
+        }
+
+        private void PostBox_TextChanged(object sender, EventArgs e)
+        {
+            setButtonVisability();
         }
     }
 }
