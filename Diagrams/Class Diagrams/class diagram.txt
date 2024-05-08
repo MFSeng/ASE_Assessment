@@ -32,6 +32,7 @@ class CreateAccount {
 
 class CreateTwoFactor
 {
+	CreateTwoFactor() : void
 	VerifyButtonClick() : DialogResult
 }
 
@@ -42,9 +43,11 @@ class VerifyTwoFactor
 
 
 class Settings_Page {
-	EditTwoFactor() : void	
+	ResetTwoFactor() : void
+	
 }
 class Home_Page {
+	customerNumber : int
 	CreateNewAccount() : bool
 	ViewAccount() : void
 }
