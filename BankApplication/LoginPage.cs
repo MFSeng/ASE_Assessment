@@ -27,19 +27,18 @@ namespace BankApplication
 
         private void LoginPage_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
             CreateAccount account = new CreateAccount();
-            account.Show();
-            this.Hide();
+            account.ShowDialog();
         }
 
         private void Login_Click(object sender, EventArgs e)
         { 
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (connection = new SqlConnection(connectionString))
             {
                 connection.Open();
                 string sql = "SELECT AuthCode FROM Details WHERE [Customer Number]='" + usernameBox.Text + "' AND Password='" + passwordBox.Text + "'";

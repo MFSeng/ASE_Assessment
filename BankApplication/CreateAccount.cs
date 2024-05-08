@@ -25,7 +25,7 @@ namespace BankApplication
         }
         private void CreateAccount_Load(object sender, EventArgs e)
         {
-            int customerNum = Int32.Parse(RandomNum());
+            customerNum = Int32.Parse(RandomNum());
             label2.Text = customerNum.ToString();
         }
         public string RandomNum()
@@ -49,30 +49,40 @@ namespace BankApplication
         {
             SaveCustomer();
             MessageBox.Show("Customer Account Created!");
-            this.Hide();
-            new LoginPage().Show();
+            this.Close();
         }
 
         private void SaveCustomer()
         {
-            string custNum = Convert.ToString(customerNum);
-            string firstName = Convert.ToString(FirstBox.Text);
-            string surname = Convert.ToString(SurBox.Text);
-            string auth = Convert.ToString(authcode);
-            string password = Convert.ToString(PassBox.Text);
-            string email = Convert.ToString(EmailBox.Text);
-            string address1 = Convert.ToString(AddressBox.Text);
-            string address2 = Convert.ToString(AddressBox2.Text);
-            string postcode = Convert.ToString(PostBox.Text);
-            string phoneNum = Convert.ToString(PhoneBox.Text);
-            string DoB = Convert.ToString(dateTimePicker1.Value.Date);
-            string query = ("INSERT INTO Details ([Customer Number],Firstname,Surname,AuthCode,Password,Email,[Address 1],[Address 2],Postcode,PhoneNum,[D.O.B.]) VALUES ('" + custNum + "','" + firstName + "','" + surname + "','" + auth + "','" + password + "','" + email + "','" + address1 + "','" + address2 + "','" + postcode + "','" + phoneNum + "','" + DoB + "')");
-            using (connection = new SqlConnection(connectionString))
-            using (SqlCommand command = new SqlCommand(query, connection))
+            try
             {
-                connection.Open();
-                command.ExecuteNonQuery();
-                connection.Close();
+                using (connection = new SqlConnection(connectionString))
+                using (SqlCommand command = new SqlCommand())
+                {
+                    command.Connection = connection;
+                    command.CommandType = CommandType.Text;
+                    command.CommandText = "INSERT INTO [Details] ([Customer Number], [Firstname], [Surname], [AuthCode], [Password], [Email], [Address 1], [Address 2], [Postcode], [PhoneNum], [D.O.B.]) VALUES (@CustNum, @FirstName, @Surname, @Auth, @Password, @Email, @Address1, @Address2, @Postcode, @PhoneNum, @DoB)";
+
+                    // Adding parameters to avoid SQL Injection
+                    command.Parameters.AddWithValue("@CustNum", customerNum.ToString());
+                    command.Parameters.AddWithValue("@FirstName", FirstBox.Text);
+                    command.Parameters.AddWithValue("@Surname", SurBox.Text);
+                    command.Parameters.AddWithValue("@Auth", authcode);
+                    command.Parameters.AddWithValue("@Password", PassBox.Text);
+                    command.Parameters.AddWithValue("@Email", EmailBox.Text);
+                    command.Parameters.AddWithValue("@Address1", AddressBox.Text);
+                    command.Parameters.AddWithValue("@Address2", AddressBox2.Text);
+                    command.Parameters.AddWithValue("@Postcode", PostBox.Text);
+                    command.Parameters.AddWithValue("@PhoneNum", PhoneBox.Text);
+                    command.Parameters.AddWithValue("@DoB", dateTimePicker1.Value.Date.ToString("yyyy-MM-dd"));
+
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Failed to add customer. Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
