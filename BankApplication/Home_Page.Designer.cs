@@ -46,6 +46,7 @@
             this.TransferButton = new System.Windows.Forms.Button();
             this.DeleteButton = new System.Windows.Forms.Button();
             this.LogoffButton = new System.Windows.Forms.Button();
+            this.EditButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // AccountBox
@@ -228,11 +229,22 @@
             this.LogoffButton.UseVisualStyleBackColor = true;
             this.LogoffButton.Click += new System.EventHandler(this.LogoffButton_Click);
             // 
+            // EditButton
+            // 
+            this.EditButton.Location = new System.Drawing.Point(407, 206);
+            this.EditButton.Name = "EditButton";
+            this.EditButton.Size = new System.Drawing.Size(75, 23);
+            this.EditButton.TabIndex = 20;
+            this.EditButton.Text = "Settings";
+            this.EditButton.UseVisualStyleBackColor = true;
+            this.EditButton.Click += new System.EventHandler(this.EditButton_Click);
+            // 
             // Home_Page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(494, 270);
+            this.Controls.Add(this.EditButton);
             this.Controls.Add(this.LogoffButton);
             this.Controls.Add(this.DeleteButton);
             this.Controls.Add(this.TransferButton);
@@ -280,5 +292,6 @@
         private System.Windows.Forms.Button TransferButton;
         private System.Windows.Forms.Button DeleteButton;
         private System.Windows.Forms.Button LogoffButton;
+        private System.Windows.Forms.Button EditButton;
     }
 }
