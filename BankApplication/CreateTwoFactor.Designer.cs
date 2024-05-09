@@ -94,7 +94,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "CreateTwoFactor";
-            this.Text = "CreateTwoFactor";
+            this.Text = "Create 2FA";
             this.Load += new System.EventHandler(this.CreateTwoFactor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picQRCode)).EndInit();
             this.ResumeLayout(false);

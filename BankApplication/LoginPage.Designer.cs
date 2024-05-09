@@ -111,7 +111,7 @@
             this.Controls.Add(this.Login);
             this.Controls.Add(this.btnCreate);
             this.Name = "LoginPage";
-            this.Text = "Form1";
+            this.Text = "ASE Bank";
             this.Load += new System.EventHandler(this.LoginPage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

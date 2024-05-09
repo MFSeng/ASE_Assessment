@@ -125,7 +125,7 @@
             this.Controls.Add(this.Destination);
             this.Controls.Add(this.CustomerLabel);
             this.Name = "Recurring";
-            this.Text = "Recurring";
+            this.Text = "Direct Debit";
             this.Load += new System.EventHandler(this.Recurring_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

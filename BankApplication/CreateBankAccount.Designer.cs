@@ -135,7 +135,7 @@
             this.Controls.Add(this.AccountLabel);
             this.Controls.Add(this.CustomerLabel);
             this.Name = "CreateBankAccount";
-            this.Text = "CreateBankAccount";
+            this.Text = "New Bank Account";
             this.Load += new System.EventHandler(this.CreateBankAccount_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -95,7 +95,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(232, 98);
+            this.ClientSize = new System.Drawing.Size(231, 96);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblOutput);
             this.Controls.Add(this.btnCancel);
@@ -103,7 +103,7 @@
             this.Controls.Add(this.txtUserInput);
             this.Controls.Add(this.label1);
             this.Name = "VerifyTwoFactor";
-            this.Text = "VerifyTwoFactor";
+            this.Text = "Verify 2FA";
             this.Load += new System.EventHandler(this.VerifyTwoFactor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -304,7 +304,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "CreateAccount";
-            this.Text = "CreateAccount";
+            this.Text = "New Account";
             this.Load += new System.EventHandler(this.CreateAccount_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

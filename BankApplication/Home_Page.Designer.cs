@@ -277,7 +277,7 @@
             this.Controls.Add(this.AccountBox);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "Home_Page";
-            this.Text = "Home";
+            this.Text = "ASE Bank:- Home";
             this.Load += new System.EventHandler(this.Home_Page_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
