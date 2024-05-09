@@ -223,5 +223,11 @@ namespace BankApplication
             Settings settings = new Settings();
             settings.ShowDialog();
         }
+
+        private void ReccuringButton_Click(object sender, EventArgs e)
+        {
+            Recurring rec = new Recurring();
+            rec.ShowDialog();
+        }
     }
 }

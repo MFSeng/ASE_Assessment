@@ -47,6 +47,7 @@
             this.DeleteButton = new System.Windows.Forms.Button();
             this.LogoffButton = new System.Windows.Forms.Button();
             this.EditButton = new System.Windows.Forms.Button();
+            this.ReccuringButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // AccountBox
@@ -239,11 +240,22 @@
             this.EditButton.UseVisualStyleBackColor = true;
             this.EditButton.Click += new System.EventHandler(this.EditButton_Click);
             // 
+            // ReccuringButton
+            // 
+            this.ReccuringButton.Location = new System.Drawing.Point(281, 206);
+            this.ReccuringButton.Name = "ReccuringButton";
+            this.ReccuringButton.Size = new System.Drawing.Size(120, 23);
+            this.ReccuringButton.TabIndex = 21;
+            this.ReccuringButton.Text = "Dirrect Debit";
+            this.ReccuringButton.UseVisualStyleBackColor = true;
+            this.ReccuringButton.Click += new System.EventHandler(this.ReccuringButton_Click);
+            // 
             // Home_Page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(494, 270);
+            this.Controls.Add(this.ReccuringButton);
             this.Controls.Add(this.EditButton);
             this.Controls.Add(this.LogoffButton);
             this.Controls.Add(this.DeleteButton);
@@ -293,5 +305,6 @@
         private System.Windows.Forms.Button DeleteButton;
         private System.Windows.Forms.Button LogoffButton;
         private System.Windows.Forms.Button EditButton;
+        private System.Windows.Forms.Button ReccuringButton;
     }
 }

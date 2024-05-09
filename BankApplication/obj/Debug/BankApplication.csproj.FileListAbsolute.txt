@@ -54,3 +54,4 @@ C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\B
 C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.Transfer.resources
 C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.CreateBankAccount.resources
 C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.Settings.resources
+C:\Users\Mitch\Documents\Postgrad\Advanced_Software_Engineering\ASE_Assessment\BankApplication\obj\Debug\BankApplication.Recurring.resources
