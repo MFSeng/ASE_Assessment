@@ -23,7 +23,7 @@ namespace BankApplication
             InitializeComponent();
             connectionString = ConfigurationManager.ConnectionStrings["BankApplication.Properties.Settings.BankServerConnectionString"].ConnectionString;
         }
-        private string RandomNum()
+        public static string RandomNum()
         {
             Random random = new Random();
             const string chars = "0123456789";
