@@ -246,7 +246,7 @@
             this.ReccuringButton.Name = "ReccuringButton";
             this.ReccuringButton.Size = new System.Drawing.Size(120, 23);
             this.ReccuringButton.TabIndex = 21;
-            this.ReccuringButton.Text = "Dirrect Debit";
+            this.ReccuringButton.Text = "Direct Debit";
             this.ReccuringButton.UseVisualStyleBackColor = true;
             this.ReccuringButton.Click += new System.EventHandler(this.ReccuringButton_Click);
             // 
